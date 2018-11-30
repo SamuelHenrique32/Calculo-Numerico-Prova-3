@@ -24,4 +24,7 @@ end
 
 % tab=[t u] caso eu queira a minha saída na forma de tabela
 
+% calculo do erro maximo
+% Erro = max(abs(u-f(t)))
+
 end
