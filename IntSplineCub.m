@@ -1,4 +1,5 @@
 function Q = IntSplineCub( x, y )
+%   Integracao por spline cubicos
 %   Pode utilizar sem conhecer funcao
 
 C = CoefSpline3( x, y );

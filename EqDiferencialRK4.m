@@ -7,6 +7,7 @@ function [t,u] = EqDiferencialRK4(F,a,b,ua,h)
 % SAÍDAS:
 % t e u --> coordenadas dos pontos que passam pela função solução
 % e o mais eficiente
+% comando ode45 utiliza esse metodo
 
 n=(b-a)/h;
 t=(a:h:b)';

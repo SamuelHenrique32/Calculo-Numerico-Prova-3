@@ -3,7 +3,7 @@ function [ Q ] = NewtonCotesComposto( f, a, b, m, n )
 %   Calcula a quadratura de Newton Cotes de ordem n, ou seja, aproxima a
 %   integral da f(x), no intervalo[a, b] através de um polinômio
 %   interpolador de grau n. Divide o intervalo de área e calcula a
-%   quadratura de cada intervalo m.
+%   quadratura de cada intervalo m de tamanho H.
 %   Q(n,m)
 
 H  = (b-a)/m;

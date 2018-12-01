@@ -1,6 +1,7 @@
 function [ Q, Erel, k ] = QuadNCAdapt( f, a, c, b, tol, kmax )
 % O metodo e reaplicado recursivamente aos subintervalos [a, c] e [c, b].
 % Newton-Cotes adaptavel
+% matlab usa esse metodo internamente no comando quad
 
 % INICIALIZACAO
 k = 0;

@@ -4,6 +4,7 @@ function [ Q ] = NewtonCotes( f, a, b, n )
 %   integral da f(x), no intervalo[a, b] através de um polinômio
 %   interpolador de grau n.
 %   w sao pesos de integracao
+%   ordem de 0 a 4
 
 if n == 0
     w0 = 1;
