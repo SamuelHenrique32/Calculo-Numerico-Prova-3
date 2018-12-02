@@ -1,11 +1,14 @@
 function [t,u] = EDO_Euler(F,a,b,ua,h)
 % ENTRADAS:
 % F --> função definida por @ (ex: F = @(t,u) 1+t-2*u)
+% du/dt = ...
 % a e b são os extremos do intervalo t
 % ua = u(0) (valor de u quando t é 0)
 % h --> passo / distância entre os valores de t (ex: t=0.05)
 % SAÍDAS:
 % t e u --> coordenadas dos pontos que passam pela função solução
+% t,u = x,y
+% k=F(t,u)
 
 t=[a:h:b]';
 n=length(t);
