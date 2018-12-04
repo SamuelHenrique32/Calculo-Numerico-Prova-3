@@ -6,6 +6,8 @@ function [ Q ] = NewtonCotes( f, a, b, n )
 %   w sao pesos de integracao
 %   ordem de 0 a 4
 %   erf e error function
+%   syms x;
+%   deriv = diff(f(x));
 
 if n == 0
     w0 = 1;

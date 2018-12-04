@@ -22,10 +22,8 @@ for i=1:n
     u(i+1)=u(i)+h*(1/6*k1+2/6*k2+2/6*k3+1/6*k4);
 end
 
-plot(t,u,'sg') % visualizo os pontos que utilizei pra obter a resposta
-hold on
-grid
-plot(t,u,'-.') % visualizo a curva da função resposta
+%plot(t,u,'sg') % visualizo os pontos que utilizei pra obter a resposta
+%plot(t,u,'-.') % visualizo a curva da função resposta
 
 % tab=[t u] caso eu queira a minha saída na forma de tabela
 
