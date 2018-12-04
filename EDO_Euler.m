@@ -9,6 +9,7 @@ function [t,u] = EDO_Euler(F,a,b,ua,h)
 % t e u --> coordenadas dos pontos que passam pela função solução
 % t,u = x,y
 % k=F(t,u)
+% dsolve
 
 t=[a:h:b]';
 n=length(t);
